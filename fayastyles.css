@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.main{
+    height:fit-content;
+    
+    z-index: 1;
+}
+.topbardiv{
+    z-index: 10;
+    position: fixed;
+    width:100%;
+    height:60px;
+    background-color: #88c140;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightelements{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.welcomediv{
+    padding-top: 90px;
+    padding-bottom: 125px;
+    width: 100%;
+    height:fit-content;
+    background-color: #88c140;
+    text-align: center;
+    
+}
+.welcomediv h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:200;
+    font-size: 80px;
+    line-height: 100px;
+}
+.productdiv{
+    height:fit-content;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-items:first baseline;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 70px 50px;
+    /* padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px; */
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.productdiv h1{
+    font-weight:400;
+}
+.productdiv p{
+    font-weight: 200;
+}
+.getstarteddiv{
+    padding-top: 10%;
+    width: 100%;
+    height: 559px;
+    background-image:url(https://fayausa.com/wp-content/themes/faya/assets/img/banner/build-bg.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    border-top: solid #88c140;
+    border-bottom: solid #AAAAAA;
+}
+.getstarteddiv h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+}
+.getstarteddiv p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 230;
+}
+.getstartedbutton{
+    border: 1px solid #88c140;
+    width: 185px;
+    height: 66px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 230;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #88c140;
+    
+}
+.smallsquare{
+    width:40px;
+    height:40px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: relative;
+    left: 48.5%;
+    top: -21px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.clients{
+    height: fit-content;
+    background-color: white;
+}
+.clients h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:200;
+    font-size: 50px;
+    line-height: 100px;
+}
+.clientlogocontainer ul{
+    list-style: none;
+}
+.clientlogocontainer{
+    width: 100%;
+    height: 1250px; 
+    background-color: white;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+ .footercontainer{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height:fit-content;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+.footerservices{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content;
+    
+}
+.footerheading{
+    grid-column: 1/span 3;
+    border-bottom: solid 1px lightgray;
+    padding-left: 30px;
+}
+.footertechnology{
+    padding-top: 5px;
+    padding-left: 30px;
+    
+}
+
+.footermarketing{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.footerbrandedmerchandise{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+
